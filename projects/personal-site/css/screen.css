@@ -17,14 +17,6 @@ html, body{
 .wrapper{
 	width:auto;
 }
-body{
-	width:700px;
-	min-height:100%;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:100px;
-
-}
 .container{
 	background:white;
 	min-height:100%;
@@ -96,7 +88,7 @@ img{
 	opacity:0.7;
 	width:150px;
 	height:30px;
-	text-color:white;
+	color:white;
 	text-decoration:none;
 	font-size:20px;
 	text-align:left;
@@ -113,9 +105,10 @@ nav{
 }
 footer{
 	position:absolute;
-	margin-top:560px;
-	margin-left:900px;
-	text-color:white;
+	margin-top:500px;
+	margin-left:1000px; 
+	width:300px;
+	color:white;
 }
 .head{
 	font-size:130px;
