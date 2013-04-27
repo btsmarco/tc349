@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>GH2HG</title>
+		<link rel="stylesheet" href="css/main.css" type="text/css">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+		</script>
+		<script src="app.js" type="text/javascript"> 
+		</script>
+		<script> 
+			$(document).ready(function(){
+				$(".navbox").mouseenter(function(){
+					$(".panel").slideDown("slow");
+				});
+				$(".navbox" && ".panel").mouseleave(function(){
+					$(".panel").slideUp("slow")
+				})
+				function n(){
+					$(".panel").slideUp("slow")
+				}
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="container">
+			<nav id="topNav">
+			<ul class="navtop">
+				<li class="navcell">
+					<a href="#">Home</a>
+					<ul>
+						<li><a href="#">Sub Nav</a></li>
+						<li><a href="#">Sub Nav</a></li>
+						<li><a href="#">Sub Nav</a></li>
+						<li><a href="#">Sub Nav</a></li>
+						<li><a href="#">Sub Nav</a></li>
+					</ul>
+				</li>
+				<li class="navcell"><a href="#">About </a></li>
+				<li class="navcell"><a href="#">Help </a></li>
+				<li class="navcell"><a href="#">Contact </a></li>
+				<li class="navcell"><a href="#">Gallery </a></li>
+			</ul>
+
+		
+<!--
+				<ul>
+					<li class="navbox" >Home</li>
+						<ul class="panel">
+							<li><a href="#">What we do?	</a></li>
+							<li> <a href="#">Why we do it?</a></li>
+							<li><a href="#">Join Us </a></li>
+						</ul>
+					<li class="navbox" >Home</li>
+						<ul class="panel">
+							<li><a href="#">What we do?	</a></li>
+							<li> <a href="#">Why we do it?</a></li>
+							<li><a href="#">Join Us </a></li>
+						</ul>
+
+					<li class="navbox">About</li>
+						<ul class="panel">
+							<li>Hi	
+							<li>bye
+							<li>YO
+						</ul>
+
+					<li class="navbox">Help	</li>
+
+					<li class="navbox">Contact</li>
+
+					<li class="navbox">Gallery</li>
+
+					<li class="navbox">Blog</li>
+				</ul>	
+
+					-->
+			</nav>	
+		</div> <!--container-->
+	</body>
+</html>
