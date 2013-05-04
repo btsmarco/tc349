@@ -1,3 +1,228 @@
-body {
-	background:#fff;
+/***************************************
+main CSS file
+
+***************************************/
+html, body{
+	height:100%;
 }
+
+.sect{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/*margin:0 auto 30px auto;*/
+}
+
+/* Container for page content to push down footer */
+.wrapper{
+	background:white;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -60px;
+}
+@media (min-width:979px){
+	#Navi{
+		width:900px;
+	}
+	.wrapper{
+		background:white;
+	}
+
+	.sect{
+		width:900px;
+		margin:0 auto 0 auto;
+	}
+}
+
+@media (min-width:768px) and (max-width:979px){
+	.sect{
+		padding:0 10px 0 10px;
+	}
+}
+/***************************************
+ Navigation
+***************************************/
+nav{
+	margin-top:0;
+}
+.activeNav{
+	background-color:#0e78a0 !important;
+}
+li.navcell{
+	float:left;
+	margin-right:10px;
+}
+
+ul.navtop{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+a.navlinks:link,a.navlinks:visited
+{
+	display:block;
+	width:125px;
+	font-weight:bold;
+	color:#ffffff;
+	background-color:#77bd42;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+}
+a.navlinks:hover,a.navlinks:active
+{
+	background-color:#7A991A;
+}
+.navcellcol{
+	width:100% !important;
+}
+img.navlinks{
+	float:left;
+	margin-right:10px;
+	padding: 0 !important;
+	display:block;
+	width:125px;
+	font-weight:bold;
+	color:#ffffff;
+	text-align:center;
+	text-decoration:none;
+}
+.navlogo{
+	padding: 0 !important;
+}
+/***************************************
+Content
+***************************************/
+article{
+	font-family:'Times New Romans';	
+	font-size:20px;
+	line-height:110%;
+}
+.welcomelogo{
+	margin-top:40px;
+}
+.wel{
+	font-size:30px;
+	line-height:115% !important;
+}
+h1.welcome{
+	font-size:55px;
+	padding:0 0 20px 0;
+	font-family: 'Bitter', serif;
+	margin-top:60px;
+	color:#0e78a0 !important;
+}
+h2.Title{
+	padding:20px 0 20px 0;
+	font-family: 'Bitter', serif;
+}
+a.Title{
+	color:#0e78a0 !important;
+	text-decoration:none;
+}
+section{
+	margin-bottom:50px;	
+}
+#visionSt{
+	width:500px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+#do{
+	line-height:130% !important;
+}
+.redtxt{
+	color:red;
+}
+.greentxt{
+	color:#77bd42;
+}
+/***************************************
+Divider
+***************************************/
+.divider{
+	height:auto;
+	min-height:30px;
+	width:100%;
+	padding-top:5px;
+	text-align:center;
+	margin:30px auto 0 auto;
+}
+#orange{
+	background-color:#ff870f;
+	font-family: 'Delius Swash Caps', cursive;
+	font-size:23px;
+}
+#pink{
+	background-color:#fa004b;
+	font-family:'The Girl Next Door', cursive;
+	font-size:23px;
+}
+#gray{
+	background-color:#8a8385;
+	font-family:'The Girl Next Door', cursive;
+	font-size:23px;
+}
+#brown{
+	background-color:#c76118;
+	font-family: 'Delius Swash Caps', cursive;
+	font-size:23px;
+}
+/***************************************
+Footer
+***************************************/
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+	height: 60px;
+}
+.pushfooter{
+	height:50px !important;
+}
+#footer {
+	height: auto !important;
+	background-color: #77bd42;
+	padding-top:20px;
+	overflow: hidden;
+	width: 100%;	
+	position: relative;
+	font-size:18px;
+	margin-top:30px;
+	border-top: thick double #000000;
+	color:#e3e3e3;
+}
+.leftf{
+	padding-top:10px;
+}
+.sidefooter{
+	background-color:#0e78a0 !important;
+	height: 100% !important;
+	right:0;
+	position:absolute !important;
+	padding-top:10px;
+	padding-left:10px;
+}
+.sect2{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+	#footer {
+	  margin-left: -20px;
+	  margin-right: -20px;
+	  padding-left: 20px;
+	  padding-right: 20px;
+	}
+}
+a.footer{
+	color:#ffffff;
+}
+
+

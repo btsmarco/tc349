@@ -1,45 +1,124 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>GH2HG</title>
-		<meta name="description" content="A student run non-profit Organization in Michigan State University">
-		<meta name="keywords" content="GH2HG,non-profit,medical supplies">
-		<link rel="stylesheet" href="css/main.css" >
-		<meta charset="UTF-8">
-	</head>
+  <head>
+    <title>GH2HG</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="A student run non-profit Organization in Michigan State University">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="GH2HG,non-profit,medical supplies">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/main.css" rel="stylesheet" media="screen">
+
+	<link href='http://fonts.googleapis.com/css?family=Patrick+Hand|Brawler|Neuton|Delius+Swash+Caps|The+Girl+Next+Door|Bitter|Satisfy|Indie+Flower|Cedarville+Cursive|Handlee' rel='stylesheet' type='text/css'>
+  </head>
 	<body>
-		<div class="container">
-			<img class="logo" src="img/logo.jpg"/>
-			<nav>
-				<a href="index.html">Home</a>
-				<a href="about.html">About</a>
-				<a href="help.html">Help</a>
-				<a href="contact.html">Contact us</a>
-				<a href="gallery.html">Gallery</a>
-				<a href="http://gh2hg.tumblr.com">Blog</a>
-			</nav>
-			<article>
-				<section>
-					<h2>WHO ARE WE?</h2>
-					<p>We are a non-profit humanitarian aid organization that is based at Michigan State University and led by a diverse group of MSU students. GH2HG focuses on helping countries in desperate need of medical aid. To achieve this goal we have built a strong network of Michigan-based medical professionals, student volunteers and developing countries to collect, sort, ship and redistribute usable medical supplies and equipment.</p>
-					<p>GH2HG was founded in October, 2010 as non-profit organization committed to global human health. So far, our shipments have helped bring hope and care to thousands of people in the developing world. In the process, we have reduced waste in the U.S.</p>
-				</section>
-				<section>
-					<h2>WHO ARE OUR PARTNERS?</h2>
-					<div class="partner">
-						<p>Michigan State University Institute of International Health</p>
-						<img src="img/iih.jpg" href="http://www.msu.edu/~iih/" />
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+			  fjs.parentNode.insertBefore(js, fjs);
+			  }(document, 'script', 'facebook-jssdk'));
+		 </script>
+		<div class="row-fluid wrapper">
+			<div class="row-fluid sect" id="Navi">
+				<nav id="topNav" class="row-fluid visible-desktop" >
+					<ul class="navtop">
+						<li class="navcell"><a href="index.html"><img class="navlinks" src="img/logo2.jpg" alt="GH2HG logo"/></a></li>
+						<li class="navcell"><a class="navlinks activeNav" href="about.html">About</a></li>
+						<li class="navcell"><a class="navlinks" href="help.html">Help</a></li>
+						<li class="navcell"><a class="navlinks" href="contact.html">Contact</a></li>
+						<li class="navcell"><a class="navlinks" href="gallery.html">Gallery</a></li>
+						<li class="navcell"><a class="navlinks" href="http://gh2hg.tumblr.com">Blog</a></li>
+					</ul>
+				</nav>	
+
+				 <div class="navbar navbar-fixed-top hidden-desktop">
+					  <div class="navbar-inner">
+							<div class="container-fluid">
+								  <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+								  </button>
+								  <div class="nav-collapse collapse">
+										<ul class="nav">
+											<li class="navcellcol"><a href="index.html">Home</a></li>
+											<li class="navcellcol activeNav"><a href="about.html">About</a></li>
+											<li class="navcellcol"><a href="help.html">Help</a></li>
+											<li class="navcellcol"><a href="contact.html">Contact</a></li>
+											<li class="navcellcol"><a href="gallery.html">Gallery</a></li>
+											<li class="navcellcol"><a href="http://gh2hg.tumblr.com">Blog</a></li>
+										</ul>
+								  </div><!--/.nav-collapse -->
+							</div>
+					  </div>
+				 </div>
+			</div><!-- row-fluid NAV -->
+
+			<div class="row-fluid wrapper">
+				<article>
+						<section class="row-fluid sect">
+						<div class="span12">
+							<h2 class="Title"><a class="Title" id="whoarewe">Who are we?</a></h2>
+
+								<p>We are a non-profit humanitarian aid organization that is based at Michigan State University and led by a diverse group of MSU students. GH2HG focuses on helping countries in desperate need of medical aid. To achieve this goal we have built a strong network of Michigan-based medical professionals, student volunteers and developing countries to collect, sort, ship and redistribute usable medical supplies and equipment.</p>
+								<p>GH2HG was founded in October, 2010 as non-profit organization committed to global human health. So far, our shipments have helped bring hope and care to thousands of people in the developing world. In the process, we have reduced waste in the U.S.</p>
+						</div>
+					</section>
+
+
+					<div class="divider" id="brown">
+						<p class="quote">How wonderful it is that nobody need wait a single moment before starting to improve the world." Ann Frank</p>
 					</div>
-					<div class="partner">
-						<p>Michigan State University Surplus</p>
-						<img src="img/SurplusStore.jpg" href="http://www.msusurplusstore.com/servlet/StoreFront"/>
+
+					<section class="row-fluid sect">
+						<div class="span12">
+							<h2 class="Title"><a class="Title" id="ourpartners">Our Partners</a></h2>
+								<div class="partner">
+									<h3>Michigan State University Institute of International Health</h3>
+									<a href="http://www.msu.edu/~iih/"><img src="img/iih.jpg" alt="IIH" /></a>
+								</div>
+								<div class="partner">
+									<h3>Michigan State University Surplus</h3>
+									<a href="http://www.msusurplusstore.com/servlet/StoreFront"><img src="img/SurplusStore.jpg" alt="SurplusStore"/></a>
+								</div>
+								<div class="partner">
+									<h3>The Beneficencia (Charity Public Organization)</h3>
+									<a href="http://www.beneficenciayucatan.org/index.shtml" ><img src="img/yucatan.jpg" alt="The Beneficencia"/></a>
+							</div>
+						</div>
+					</section>
+				</article>
+			</div>
+
+			<div id="push"></div>
+			<!-- Footer goes here ~~~~~~~~~~~~~~~~~~-->
+			 <div id="footer">
+				 <div class="container sect">
+					<div class="span8 leftf">
+						<p><a class="footer" href="index.html">Home</a>: <a class="footer" href="index.html#vision">Our Vision</a>, <a  class="footer" href="index.html#whatwedo">What we do?</a>, <a  class="footer" href="index.html#keepintouch">Keep in touch</a>.</p>
+						<p><a  class="footer" href="about.html">About</a>:<a class="footer"  href="about.html#whoarewe"> Who are we?</a>, <a  class="footer" href="about.html#ourpartners"> Our partners </a></p>
+						<p><a class="footer" href="help.html">Help</a>:<a class="footer" href="help.html#volunteer"> Volunteer</a>, <a class="footer" href="help.html#donate">Donate</a>, <a class="footer" href="help.html#tell">Tell your Hospital</a> </p>
+						<p><a class="footer" href="gallery.html">Gallery</a></p>
 					</div>
-					<div class="partner">
-						<p>The Beneficencia (Charity Public Organization)</p>
-						<img src="img/yucatan.jpg" href="http://www.beneficenciayucatan.org/index.shtml" />
+					<div class="span4 sidefooter">
+						Contact us at:
+						<ul class="social"> 
+							<li><a class="footer" href="https://www.facebook.com/pages/Generate-Help-2-Heal-Generations/124442024277508">Facebook</a> </li>
+							<li><a class="footer" href="https://twitter.com/gh2hg">Twitter </a></li>
+							<li><a class="footer" href="http://gh2hg.tumblr.com/ ">Tumblr </a> </li>
+							<li><a class="footer" href="https://plus.google.com/u/0/107746144419758688835/posts ">Google+ </a></li>		
+						</ul>
 					</div>
-				</section>
-			</article>
-		</div> 
-	</body>
+				 </div>
+			 </div>
+	    </div>
+
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script> <!-- Place this tag where you want the badge to render. -->
+  </body>
 </html>

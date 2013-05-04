@@ -1,39 +1,125 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>GH2HG</title>
-		<meta name="description" content="A student run non-profit Organization in Michigan State University">
-		<meta name="keywords" content="GH2HG,non-profit,medical supplies">
-		<link rel="stylesheet" href="css/main.css" >
-		<meta charset="UTF-8">
-	</head>
+  <head>
+    <title>GH2HG</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="A student run non-profit Organization in Michigan State University">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="GH2HG,non-profit,medical supplies">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/main.css" rel="stylesheet" media="screen">
+
+	<link href='http://fonts.googleapis.com/css?family=Patrick+Hand|Brawler|Neuton|Delius+Swash+Caps|The+Girl+Next+Door|Bitter|Satisfy|Indie+Flower|Cedarville+Cursive|Handlee' rel='stylesheet' type='text/css'>
+  </head>
 	<body>
-		<div class="container">
-			<img class="logo" src="img/logo.jpg"/>
-			<nav>
-				<a href="index.html">Home</a>
-				<a href="about.html">About</a>
-				<a href="help.html">Help</a>
-				<a href="contact.html">Contact us</a>
-				<a href="gallery.html">Gallery</a>
-				<a href="http://gh2hg.tumblr.com">Blog</a>
-			</nav>
-			<article>
-				<section>
-					<h2>VOLUNTEER TIME</h2>
-					<p>If you would like to volunteer, write us at ghtohg@gmail.com you can help sort, categorize and prepare medical supplies for shipment at our warehouse in East Lansing.</p>
-					<p>We categorize and sort medical supplies every Friday from 1:00 PM to 6:30 PM, tell us when you can come to help.</p>
-				</section>
-				<section>
-					<h2>DONATE SUPPLIES</h2>
-					<p>If you would like to donate supplies, write us at ghtohg@gmail.com we accept all kind of medical supplies such as walkers, crutches , surgical instruments, beds, tools, gloves and gowns, wheelchairs, etc. We will appreciate these greatly.</p>
-				</section>
-				<section>
-					<h2>TELL YOUR HOSPITAL</h2>
-					<p>If you have contacts at your local hospital, please reach out to them on our behalf and write us at ghtohg@gmail.com. </p>
-					<p>Tell your local hospital that we accept unused, unexpired medical supplies and equipment, as well as sterile surgical supplies such as intravenous lines, syringes and sutures./p>
-				</section>
-			</article>
-		</div> 
-	</body>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+			  fjs.parentNode.insertBefore(js, fjs);
+			  }(document, 'script', 'facebook-jssdk'));
+		 </script>
+		<div class="row-fluid wrapper">
+			<div class="row-fluid sect" id="Navi">
+				<nav id="topNav" class="row-fluid visible-desktop" >
+					<ul class="navtop">
+						<li class="navcell"><a href="index.html"><img class="navlinks" alt="GH2HG logo" src="img/logo2.jpg"/></a></li>
+						<li class="navcell"><a class="navlinks" href="about.html">About</a></li>
+						<li class="navcell"><a class="navlinks activeNav " href="help.html">Help</a></li>
+						<li class="navcell"><a class="navlinks" href="contact.html">Contact</a></li>
+						<li class="navcell"><a class="navlinks" href="gallery.html">Gallery</a></li>
+						<li class="navcell"><a class="navlinks" href="http://gh2hg.tumblr.com">Blog</a></li>
+					</ul>
+				</nav>	
+
+				 <div class="navbar navbar-fixed-top hidden-desktop">
+					  <div class="navbar-inner">
+							<div class="container-fluid">
+								  <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+								  </button>
+								  <div class="nav-collapse collapse">
+										<ul class="nav">
+											<li class="navcellcol"><a href="index.html">Home</a></li>
+											<li class="navcellcol "><a href="about.html">About</a></li>
+											<li class="navcellcol activeNav"><a href="help.html">Help</a></li>
+											<li class="navcellcol"><a href="contact.html">Contact</a></li>
+											<li class="navcellcol"><a href="gallery.html">Gallery</a></li>
+											<li class="navcellcol"><a href="http://gh2hg.tumblr.com">Blog</a></li>
+										</ul>
+								  </div><!--/.nav-collapse -->
+							</div>
+					  </div>
+				 </div>
+			</div><!-- row-fluid NAV -->
+
+			<div class="row-fluid wrapper">
+				<article>
+						<section class="row-fluid sect">
+						<div class="span12">
+							<h2 class="Title"><a class="Title" id="volunteer">Volunteer</a></h2>
+								<p>If you would like to volunteer, write us at ghtohg@gmail.com you can help sort, categorize and prepare medical supplies for shipment at our warehouse in East Lansing.</p>
+								<p>We categorize and sort medical supplies every Friday from 1:00 PM to 6:30 PM, tell us when you can come to help.</p>
+						</div>
+					</section>
+
+
+					<div class="divider" id="gray">
+						<p class="quote">"Unless someone like you cares a whole aweful lot, nothing is going to get better. It's not" Dr. Seuss</p>
+					</div>
+
+					<section class="row-fluid sect">
+						<div class="span12">
+							<h2 class="Title"><a class="Title" id="donate">Donate</a></h2>
+							<p>If you would like to donate supplies, send to us an email at ghtohg@gmail.com. we accept all kinds of medical supplies such as walkers, crutches, surgical instruments, beds, tools, gloves and gowns, wheelchairs, etc. We will appreciate these greatly.</p>
+						</div>
+					</section>
+
+					<div class="divider" id="pink">
+						<p class="quote">"I've learned that you shouldn't go through life with a catchers mitt on both hands. You need to be able to throw something back." Maya Angelou</p>
+					</div>
+
+					<section class="row-fluid sect">
+						<div class="span12">
+							<h2 class="Title"><a class="Title" id="tell">Tell Your Hospital</a></h2>
+								<p>If you have contacts at your local hospital, please reach out to them on our behalf and write us at ghtohg@gmail.com. </p>
+								<p>Tell your local hospital that we accept unused, unexpired medical supplies and equipment, as well as sterile surgical supplies such as intravenous lines, syringes and sutures.</p>
+						</div>
+					</section>
+
+				</article>
+			</div>
+
+			<div id="push"></div>
+			<!-- Footer goes here ~~~~~~~~~~~~~~~~~~-->
+			 <div id="footer">
+				 <div class="container sect">
+					<div class="span8 leftf">
+						<p><a class="footer" href="index.html">Home</a>: <a class="footer" href="index.html#vision">Our Vision</a>, <a  class="footer" href="index.html#whatwedo">What we do?</a>, <a  class="footer" href="index.html#keepintouch">Keep in touch</a>.</p>
+						<p><a  class="footer" href="about.html">About</a>:<a class="footer"  href="about.html#whoarewe"> Who are we?</a>, <a  class="footer" href="about.html#ourpartners"> Our partners </a></p>
+						<p><a class="footer" href="help.html">Help</a>:<a class="footer" href="help.html#volunteer"> Volunteer</a>, <a class="footer" href="help.html#donate">Donate</a>, <a class="footer" href="help.html#tell">Tell your Hospital</a> </p>
+						<p><a class="footer" href="gallery.html">Gallery</a></p>
+					</div>
+					<div class="span4 sidefooter">
+						Contact us at:
+						<ul class="social"> 
+							<li><a class="footer" href="https://www.facebook.com/pages/Generate-Help-2-Heal-Generations/124442024277508">Facebook</a> </li>
+							<li><a class="footer" href="https://twitter.com/gh2hg">Twitter </a></li>
+							<li><a class="footer" href="http://gh2hg.tumblr.com/ ">Tumblr </a> </li>
+							<li><a class="footer" href="https://plus.google.com/u/0/107746144419758688835/posts ">Google+ </a></li>		
+						</ul>
+					</div>
+				 </div>
+			 </div>
+	    </div>
+
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script> <!-- Place this tag where you want the badge to render. -->
+  </body>
 </html>
